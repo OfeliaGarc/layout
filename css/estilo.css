@@ -1,0 +1,28 @@
+.container {
+	width: 700px; 
+	margin: 0 auto;
+}
+.logo img {
+	width: 700px;
+	height: 80px;
+}
+hr {
+	height: 1px;
+	border: 0;
+	background-color: black;
+} /* Ingresa tu css aqui */
+#navegador {
+	list-style-type: none;
+	text-align: center;
+}
+.li {
+	font-size: 30px;
+	display: inline;
+	text-align: center;
+	margin: 0 12px 0 0;	
+}
+/*no véo el problema, si está del mismo modo que el logo de laboratoria y tiene la misma medida del container*/
+.grup img {
+	width: 700px;
+	height: 400px;
+}
