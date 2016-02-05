@@ -15,14 +15,62 @@ hr {
 	list-style-type: none;
 	text-align: center;
 }
-.li {
-	font-size: 30px;
+#navegador li {
+	font-size: 25px;
 	display: inline;
 	text-align: center;
-	margin: 0 12px 0 0;	
+	margin: 0 12px 0 0;
+	padding: 8px;	
+}
+.li {
+	border-right: 2px solid black;
 }
 /*no véo el problema, si está del mismo modo que el logo de laboratoria y tiene la misma medida del container*/
 .grup img {
-	width: 700px;
-	height: 400px;
+	width: 100%;
+	height: 500px;
+}
+.peq {
+	width: 50px;
+	height: 1px;
+	background-color: black;
+}
+p {
+	font-size: 18px;
+	font-family: Verdana;
+	text-align: center;
+}
+.arriba {
+	height: 200px;
+	width: 200px;
+	border: 2px solid gray;
+	display: inline-block;
+	margin-left: 20px;
+}
+.abajo {
+	height: 200px;
+	width: 200px;
+	border: 2px solid gray;
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.arriba img {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	-webkit-filter: contrast(70%);
+}
+.abajo img {
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	-webkit-filter: contrast(70%);
+}
+.med {
+	height: 3px;
+	width: 90px;
+	border: 0;
+	background-color: black;
+	margin-left: 10px;
 }

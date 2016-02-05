@@ -1,0 +1,39 @@
+.im img {
+	width: 200px;
+	height: 200px;
+	margin-left: 530px;
+	margin-top: 0px;
+	border-radius: 100px;
+}
+p {
+	text-align: center;
+	margin-top: 40px;
+	font-size: 22px;
+}
+.rec {
+	width: 400px;
+	height: 40px;
+	background-color: gray;
+	margin: 20px;
+	border: 1px;
+}/*aquí me falta especificar el largo diferente de c/u*/
+.herm img {
+	height: 210px;
+	width: 210px;
+	margin-right: 14px;
+	float: left;
+}
+
+.mayor {
+	width: 700px;
+	margin-top: 50px;
+	margin-left: 200px;
+}
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+/*hasta aquí llevo un avence, faltan pequeños detalles*/
